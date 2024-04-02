@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4DD1D82B63CFAD009814C6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4DD1D72B63CFAD009814C6 /* ListViewController.swift */; };
 		1AC9B05A2B639056002CBC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9B0592B639056002CBC53 /* AppDelegate.swift */; };
 		1AC9B05C2B639056002CBC53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9B05B2B639056002CBC53 /* SceneDelegate.swift */; };
-		1AC9B05E2B639056002CBC53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9B05D2B639056002CBC53 /* ViewController.swift */; };
+		1AC9B05E2B639056002CBC53 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9B05D2B639056002CBC53 /* MapsViewController.swift */; };
 		1AC9B0612B639056002CBC53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC9B05F2B639056002CBC53 /* Main.storyboard */; };
 		1AC9B0642B639056002CBC53 /* MapsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9B0622B639056002CBC53 /* MapsApp.xcdatamodeld */; };
 		1AC9B0662B639057002CBC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC9B0652B639057002CBC53 /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4DD1D72B63CFAD009814C6 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1AC9B0562B639056002CBC53 /* MapsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC9B0592B639056002CBC53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AC9B05B2B639056002CBC53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AC9B05D2B639056002CBC53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AC9B05D2B639056002CBC53 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		1AC9B0602B639056002CBC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AC9B0632B639056002CBC53 /* MapsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapsApp.xcdatamodel; sourceTree = "<group>"; };
 		1AC9B0652B639057002CBC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +41,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4DD1D62B63CF86009814C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AC9B0592B639056002CBC53 /* AppDelegate.swift */,
+				1AC9B05B2B639056002CBC53 /* SceneDelegate.swift */,
+				1AC9B05D2B639056002CBC53 /* MapsViewController.swift */,
+				1A4DD1D72B63CFAD009814C6 /* ListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1AC9B04D2B639056002CBC53 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +71,7 @@
 		1AC9B0582B639056002CBC53 /* MapsApp */ = {
 			isa = PBXGroup;
 			children = (
-				1AC9B0592B639056002CBC53 /* AppDelegate.swift */,
-				1AC9B05B2B639056002CBC53 /* SceneDelegate.swift */,
-				1AC9B05D2B639056002CBC53 /* ViewController.swift */,
+				1A4DD1D62B63CF86009814C6 /* View */,
 				1AC9B05F2B639056002CBC53 /* Main.storyboard */,
 				1AC9B0652B639057002CBC53 /* Assets.xcassets */,
 				1AC9B0672B639057002CBC53 /* LaunchScreen.storyboard */,
@@ -141,9 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC9B05E2B639056002CBC53 /* ViewController.swift in Sources */,
+				1AC9B05E2B639056002CBC53 /* MapsViewController.swift in Sources */,
 				1AC9B05A2B639056002CBC53 /* AppDelegate.swift in Sources */,
 				1AC9B0642B639056002CBC53 /* MapsApp.xcdatamodeld in Sources */,
+				1A4DD1D82B63CFAD009814C6 /* ListViewController.swift in Sources */,
 				1AC9B05C2B639056002CBC53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
